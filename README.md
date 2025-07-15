@@ -1,7 +1,7 @@
 # DL-LLM-Scripts
-# Building Neural Networks and LLMs from Scratch
+# Building Neural Networks and LLMs 
 
-This repository demonstrates how to build a simple neural network using NumPy and Keras, as well as scripts for pretraining and fine-tuning Large Language Models (LLMs) with HuggingFace Transformers and PEFT-LoRA.
+This repository demonstrates how to build a simple neural network using NumPy and Keras, as well as scripts for fine-tuning Large Language Models (LLMs) with HuggingFace Transformers and PEFT-LoRA.
 
 ## Contents
 
@@ -12,10 +12,6 @@ This repository demonstrates how to build a simple neural network using NumPy an
 - **Building Simple Neural Network (Keras):**
   - Uses TensorFlow Keras to build and train a neural network for the XOR problem.
   - Demonstrates model creation, compilation, training, and prediction.
-
-- **Building LLM from Scratch:**
-  - Provides a generalized script using HuggingFace Transformers for pretraining a causal language model on a custom dataset.
-  - Includes data loading, tokenization, model initialization, and training setup.
 
 - **Fine-Tuning LLM using PEFT-LoRA:**
   - Offers a generalized script for fine-tuning a pretrained language model using PEFT (Parameter-Efficient Fine-Tuning) and LoRA (Low-Rank Adaptation).
@@ -49,10 +45,6 @@ pip install numpy tensorflow transformers datasets peft
    - Uses Keras for building and training a similar network.
    - You can adjust layers, activation functions, and training parameters.
 
-3. **Building and Pretraining an LLM:**
-   - Replace `"your_dataset_here"`, `"your_pretrained_tokenizer_here"`, and `"your_model_config_here"` with your actual dataset name, tokenizer, and model config.
-   - This script is a template for pretraining on custom data.
-
-4. **Fine-Tuning with PEFT-LoRA:**
+3. **Fine-Tuning with PEFT-LoRA:**
    - Replace the placeholders with your specific model and dataset.
    - Adjust LoRA parameters (e.g., rank) as needed for your use case.
